@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>강사 링크 인덱스 · 데이터로 시작하는 AI 수업</title>
+<style>
+  :root{ --gold:#F4B400; --accent:#E8930C; --bg:#FFFDF7; --card:#FFF6E0; --card2:#FFFCF3;
+    --border:#F0E2BC; --text:#3A2E1A; --muted:#8A7A58; --shadow:rgba(180,140,20,.16); --green:#2E9E5B; }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);line-height:1.6;
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Segoe UI",sans-serif;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px 50px;}
+  .hero{text-align:center;padding:34px 20px 10px;}
+  .hero .tag{display:inline-block;background:var(--card);border:1px solid var(--border);color:var(--accent);
+    font-weight:800;font-size:.8rem;padding:4px 13px;border-radius:99px;}
+  .hero h1{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:900;letter-spacing:-.03em;margin:12px 0 4px;}
+  .hero h1 .a{color:var(--accent);}
+  .hero p{color:var(--muted);font-size:.95rem;margin:0;}
+  .phase{margin-top:26px;}
+  .phase .lb{display:flex;align-items:center;gap:10px;margin:0 2px 8px;}
+  .phase .lb .t{font-weight:800;font-size:1.05rem;}
+  .phase .lb .mn{font-size:.78rem;font-weight:800;color:#fff;background:var(--accent);border-radius:99px;padding:2px 10px;}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .card{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--text);
+    background:var(--card2);border:1px solid var(--border);border-radius:16px;padding:15px 17px;
+    box-shadow:0 2px 8px var(--shadow);transition:transform .1s,box-shadow .2s;}
+  .card:hover{transform:translateY(-2px);box-shadow:0 8px 22px var(--shadow);}
+  .card .e{font-size:30px;flex:none;}
+  .card .n{font-weight:800;font-size:1.05rem;}
+  .card .d{color:var(--muted);font-size:.85rem;margin-top:1px;}
+  .card .u{color:var(--accent);font-size:.78rem;font-weight:700;margin-top:3px;}
+  .card .go{margin-left:auto;color:var(--accent);font-weight:900;font-size:1.2rem;flex:none;}
+  .essential .card{background:linear-gradient(180deg,#FFFBEF,var(--card));border:1.5px solid var(--gold);}
+  .full{grid-column:1 / -1;}
+  .openrow{display:flex;align-items:center;gap:16px;flex-wrap:wrap;}
+  .openrow .qr{flex:none;text-align:center;background:#fff;border:1px solid var(--border);border-radius:14px;padding:10px;box-shadow:0 4px 14px var(--shadow);}
+  .openrow .qr img{width:130px;height:130px;display:block;border-radius:8px;}
+  .openrow .qr .c{font-size:.72rem;font-weight:800;color:var(--muted);margin-top:5px;}
+  .openrow .cards2{flex:1;display:grid;gap:12px;min-width:260px;}
+  .note{background:var(--card);border:1px dashed var(--gold);border-radius:12px;padding:12px 16px;margin-top:26px;font-size:.92rem;}
+  .note b{color:var(--accent);}
+  @media(max-width:620px){.grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <span class="tag">🎛️ 강사용 컨트롤 패널</span>
+  <h1>강사 <span class="a">링크 인덱스</span></h1>
+  <p>데이터로 시작하는 AI 수업 · 강의 중 여기서 모든 화면을 새 탭으로 여세요</p>
+</div>
+
+<div class="wrap">
+
+  <!-- 강사 필수 -->
+  <div class="phase essential">
+    <div class="lb"><span class="t">⭐ 강사 필수 (이 둘만 기억)</span></div>
+    <div class="grid">
+      <a class="card" href="https://greatsong.github.io/lecture/" target="_blank" rel="noopener">
+        <span class="e">📋</span><div><div class="n">80분 진행 시나리오</div><div class="d">블록별 시간·멘트·활동 대본</div><div class="u">/lecture</div></div><span class="go">→</span>
+      </a>
+      <a class="card" href="https://greatsong.github.io/map/board.html" target="_blank" rel="noopener">
+        <span class="e">🗺️</span><div><div class="n">앞 화면 전국 지도 보드</div><div class="d">참가자 학교가 실시간으로 뿅!</div><div class="u">/map/board.html</div></div><span class="go">→</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 1 오프닝 -->
+  <div class="phase">
+    <div class="lb"><span class="mn">0–15분</span><span class="t">📍 오프닝 — 우리가 지금 데이터를 만든다</span></div>
+    <div class="openrow">
+      <div class="qr">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=280x280&margin=6&data=https%3A%2F%2Fgreatsong.github.io%2Fmap%2F" alt="QR /map">
+        <div class="c">참가자용 QR<br>greatsong.github.io/map</div>
+      </div>
+      <div class="cards2">
+        <a class="card" href="https://greatsong.github.io/map/" target="_blank" rel="noopener">
+          <span class="e">📱</span><div><div class="n">참가자 폰 앱 (시작점)</div><div class="d">학교 검색 + 과목·경력 입력</div><div class="u">/map</div></div><span class="go">→</span>
+        </a>
+        <a class="card" href="https://greatsong.github.io/map/board.html" target="_blank" rel="noopener">
+          <span class="e">🖥️</span><div><div class="n">앞 화면 보드 (빔프로젝터)</div><div class="d">💌 초대장·통계·동시도착 알림</div><div class="u">/map/board.html</div></div><span class="go">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 질문/데모 -->
+  <div class="phase">
+    <div class="lb"><span class="mn">15–35분</span><span class="t">🔎 질문으로 시작 — 데이터가 답한다</span></div>
+    <div class="grid">
+      <a class="card full" href="https://greatsong.github.io/map/insight.html" target="_blank" rel="noopener">
+        <span class="e">📊</span><div><div class="n">인구 인사이트 데모</div><div class="d">지역 검색 → 피라미드·지표·쌍둥이 동네·AI 분석 (강사 시연 + 참가자 탐색)</div><div class="u">/map/insight.html</div></div><span class="go">→</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 3 실습 -->
+  <div class="phase">
+    <div class="lb"><span class="mn">35–70분</span><span class="t">🛠 실습 — 직접 만들기</span></div>
+    <div class="grid">
+      <a class="card full" href="https://greatsong.github.io/ingu/" target="_blank" rel="noopener">
+        <span class="e">🏘️</span><div><div class="n">인구 분석 앱 만들기 교재</div><div class="d">레벨업형 · 기본 '완성 코드로 다 함께' + ⭐도전 · LV1에 github 링크</div><div class="u">/ingu</div></div><span class="go">→</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 4 다음 미션 -->
+  <div class="phase">
+    <div class="lb"><span class="mn">집에 가서</span><span class="t">🌱 다음 미션 — 내 학교 데이터로</span></div>
+    <div class="grid">
+      <a class="card" href="https://greatsong.github.io/meal/" target="_blank" rel="noopener">
+        <span class="e">🍚</span><div><div class="n">우리 학교 급식 투표 앱</div><div class="d">NEIS로 학교에서 직접</div><div class="u">/meal</div></div><span class="go">→</span>
+      </a>
+      <a class="card" href="https://greatsong.github.io/meal-db/" target="_blank" rel="noopener">
+        <span class="e">🌐</span><div><div class="n">급식 온라인 협동 모드</div><div class="d">구글 시트로 데이터 쌓기(심화)</div><div class="u">/meal-db</div></div><span class="go">→</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 부록 -->
+  <div class="phase">
+    <div class="lb"><span class="t">📎 부록 · 기타</span></div>
+    <div class="grid">
+      <a class="card" href="https://greatsong.github.io/gas/" target="_blank" rel="noopener">
+        <span class="e">📄</span><div><div class="n">구글 시트 연동 가이드</div><div class="d">'unsafe' 안심 설명 · 책 부록</div><div class="u">/gas</div></div><span class="go">→</span>
+      </a>
+      <a class="card" href="https://greatsong.github.io/start/" target="_blank" rel="noopener">
+        <span class="e">🏠</span><div><div class="n">인트로 허브(참가자 랜딩)</div><div class="d">인트로 메시지 + 전체 링크</div><div class="u">/start</div></div><span class="go">→</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="note">
+    ✅ <b>행사 전 체크</b> — ① 오프닝 시트(<code>map2</code>)의 테스트 데이터 행 비우기(0부터 시작) · ② 앞 화면에 <b>보드</b> 띄우고 <b>QR</b> 안내 · ③ 참가자에겐 <b>greatsong.github.io/map</b> 하나만.
+  </div>
+
+</div>
+</body>
+</html>
